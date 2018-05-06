@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="607.0" prefWidth="325.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="PatientUI.PatientUIController">
+   <children>
+      <Button layoutX="9.0" layoutY="272.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="309.0" text="Exercise Plan" />
+      <Button layoutX="10.0" layoutY="518.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="143.0" text="Contact Physician" />
+      <Button layoutX="8.0" layoutY="437.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="309.0" text=" Accept Appointment For June 3rd" />
+      <Button graphicTextGap="6.0" layoutX="165.0" layoutY="518.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="152.0" text="ALERT" textFill="#128d10">
+         <cursor>
+            <Cursor fx:constant="E_RESIZE" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <Button layoutX="13.0" layoutY="7.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="303.0" text="Todays Measurements" />
+      <HBox layoutX="14.0" layoutY="75.0" prefHeight="36.0" prefWidth="303.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Blood Sugar " wrappingWidth="112.42529296875" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="5.0mm      " wrappingWidth="91.42529296875" />
+            <Button mnemonicParsing="false" prefHeight="29.0" prefWidth="125.0" text="Plan" />
+         </children>
+      </HBox>
+      <HBox layoutX="14.0" layoutY="111.0" prefHeight="36.0" prefWidth="303.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cholestoreal" wrappingWidth="110.42529296875" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="5.0mm      " wrappingWidth="94.42529296875" />
+            <Button mnemonicParsing="false" prefHeight="29.0" prefWidth="103.0" text="Plan" />
+         </children>
+      </HBox>
+      <HBox layoutX="13.0" layoutY="158.0" prefHeight="36.0" prefWidth="303.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Blood Pressure" wrappingWidth="110.42529296875" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="5.0mm      " wrappingWidth="96.42529296875" />
+            <Button mnemonicParsing="false" prefHeight="29.0" prefWidth="125.0" text="Plan" />
+         </children>
+      </HBox>
+      <HBox layoutX="14.0" layoutY="194.0" prefHeight="36.0" prefWidth="303.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Stress Level" wrappingWidth="110.42529296875" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="5.0mm      " wrappingWidth="96.42529296875" />
+            <Button mnemonicParsing="false" prefHeight="29.0" prefWidth="125.0" text="Plan" />
+         </children>
+      </HBox>
+      <Button layoutX="10.0" layoutY="347.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="143.0" text="Proposed Food" />
+      <Button layoutX="174.0" layoutY="347.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="143.0" text="Bad Food" />
+   </children>
+</AnchorPane>

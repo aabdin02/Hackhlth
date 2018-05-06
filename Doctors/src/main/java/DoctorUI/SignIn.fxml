@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="605.0" prefWidth="339.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DoctorUI.SignInController">
+   <children>
+      <Button layoutX="27.0" layoutY="30.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="286.0" text="Sign In" />
+      <Button layoutX="23.0" layoutY="421.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="295.0" text="Upload Doctors Note" />
+   </children>
+</AnchorPane>
